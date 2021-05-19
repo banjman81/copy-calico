@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: dotted green 1px; */
+}
+body{
+    background-color: #15202b;
+    padding: 0;
+}
+.main{
+    display: flex;
+    margin: 0;
+    width: fit-content;
+}
+.first{
+    background-image: url('https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 900px;
+}
+.first img{
+    width: 50%;
+    height: 50%;
+    margin: 25% 25%;
+}
+/* -------------------- */
+.second{
+    color: white;
+    padding: 200px 0 0 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.second div{
+    margin-top: 25px;
+}
+.second img{
+    margin-bottom: 20px;
+}
+.linked-1{
+    background-color: #1da1f2;
+    width: 400px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    padding: 15px;
+}
+.linked-2{
+    border: solid 2px #1da1f2;
+    width: 400px;
+    text-align: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    padding: 15px;
+}
+.linked-2:hover{
+    background-color: #1da0f22f;
+}
+/* ----------------- */
+#h-1{
+    font-size: 60px;
+    font-weight: 200;
+    transform: scale(1.5, 1);
+    text-align: left;
+    margin-left: 92px;
+}
+#h-2{
+    font-size: 40px;
+    transform: scale(1, .75);
+    font-weight: 200;
+}
+#button-1{
+    /* background-color: #1da1f2; */
+    padding: 0px;
+    text-align: center;
+    /* border-radius: 35px; */
+}
+.linked-1 a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.linked-2 a{
+    color: #1da1f2;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#button-2{
+    /* border:solid #1da1f2 2px ; */
+    padding: 0px;
+    text-align: center;
+    /* border-radius: 35px; */
+}
+
+/* -------------------------------------------------------------------- */
+.btn-bar{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.btn-bar ul li{
+    color: #8899a6;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.btn-bar ul li a{
+    color: #8899a6;
+    text-decoration: none;
+}
